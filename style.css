@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #0d0d0d;
+    color: #fff;
+}
+
+/* NAVBAR */
+header{
+    width: 100%;
+    background: #111;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 28px;
+}
+
+.logo span{
+    color: #ffbf35;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    color: #ffbf35;
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 120px auto 0;
+    padding: 40px 20px;
+}
+
+.hero-text h1{
+    font-size: 45px;
+}
+
+.hero-text span{
+    color: #ffbf35;
+}
+
+.hero-text p{
+    margin: 15px 0;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.hero-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* BUTTON */
+.btn{
+    background: #ffbf35;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+/* ABOUT */
+.about{
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffbf35;
+    text-transform: uppercase;
+}
+
+/* SKILLS */
+.skills{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-card{
+    background: #1b1b1b;
+    padding: 18px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* PROJECTS */
+.projects{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.project-card{
+    background: #1b1b1b;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.project-card h3{
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact{
+    max-width: 700px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    background: #1b1b1b;
+    color: #fff;
+    border-radius: 8px;
+}
+
+textarea{
+    height: 130px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    opacity: 0.6;
+}
