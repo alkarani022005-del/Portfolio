@@ -194,3 +194,61 @@ footer{
     padding: 20px;
     opacity: 0.6;
 }
+
+/* CONTACT LINKS STYLE */
+.contact-links {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact-links p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ccc;
+}
+
+.contact-links i {
+    color: #ffbf35;
+    font-size: 18px;
+}
+
+.contact-links a {
+    color: #ffbf35;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+/* PROJECT BUTTONS */
+.project-buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.btn-small {
+    background: #ffbf35;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-small:hover {
+    opacity: 0.85;
+}
+
+.btn-small.disabled {
+    background: #555;
+    color: #ccc;
+    cursor: not-allowed;
+}
