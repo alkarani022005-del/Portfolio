@@ -128,6 +128,18 @@ nav{
     color: #d6d6d6;
 }
 
+.about-list {
+    margin-top: 15px;
+    text-align: left;
+    max-width: 700px;
+    margin-inline: auto;
+    color: #d6d6d6;
+    line-height: 1.8;
+}
+.about-list li {
+    margin-bottom: 8px;
+}
+
 /* SKILLS */
 .skills{
     max-width: 1000px;
@@ -210,34 +222,44 @@ nav{
     background: #e4a832;
 }
 
-/* CERTIFICATIONS */
+/* CERTIFICATIONS (CENTERED) */
 .certifications{
     max-width: 900px;
     margin: 60px auto;
     padding: 20px;
+    text-align: center;
 }
 
 .cert-list{
-    list-style: disc;
-    margin-left: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
     font-size: 17px;
     color: #d6d6d6;
     line-height: 1.8;
 }
 
-/* EDUCATION */
+.cert-list li{
+    margin-bottom: 10px;
+}
+
+/* EDUCATION (CENTERED) */
 .education{
     max-width: 900px;
     margin: 60px auto;
     padding: 20px;
+    text-align: center;
 }
 
 .edu-card{
     background: #1b1b1b;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     border: 1px solid #292929;
+    max-width: 500px;
 }
 
 .edu-card h3{
@@ -319,5 +341,11 @@ footer{
 
     .hero-img img{
         margin-top: 20px;
+    }
+
+    .cert-list,
+    .edu-card{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
