@@ -5,185 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alka Rani | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
 
-<!-- NAVBAR -->
-<header>
-    <nav aria-label="Main Navigation">
-        <h2 class="logo">Alka <span>Rani</span></h2>
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <h2 class="logo">Alka<span>Rani</span></h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="https://github.com/alkarani022005-del" target="_blank">GitHub</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Alka Rani</span></h1>
+<p>B.Tech Computer Science Engineering Student</p>
+<a href="resume.pdf" class="btn" download>Download Resume</a>
+            
+        </div>
+        <div class="hero-img">
+            <img src="profile.jpg" class="profile-img" alt="profile">
+        </div>
+    </section>
 
-<!-- HERO -->
-<section id="home" class="hero">
-    <div class="hero-text">
-        <h1>Hello, I'm <span>Alka Rani</span></h1>
-        <p>B.Tech Computer Science Engineering Student</p>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            <p>
+B.Tech Computer Science Engineering student with strong fundamentals in
+C, C++, Java, Python, SQL, and MongoDB. Hands-on experience in full-stack
+web development, RESTful APIs, and database design through academic projects.
+Actively seeking a Software Development / Web Development Internship to apply
+problem-solving and programming skills.
+</p>
+        </p>
+    </section>
 
-        <a href="resume.pdf" class="btn" download>Download Resume</a>
-    </div>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
 
-    <div class="hero-img">
-        <img src="profile.jpg" alt="Profile photo of Alka Rani">
-    </div>
-</section>
+        <div class="skills-grid">
+            <div class="skill-card">C</div>
+            <div class="skill-card">C++</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">MongoDB</div>
+            <div class="skill-card">DSA</div>
+            <div class="skill-card">OOPs</div>
+        </div>
+    </section>
 
-<!-- ABOUT -->
-<section id="about" class="about">
-    <h2 class="section-title">About Me</h2>
-    <p>
-        B.Tech Computer Science Engineering student with strong fundamentals in C, C++, Java, Python, SQL, and MongoDB. Hands-on experience in full-stack web development, RESTful
-APIs, and database design through academic projects. Actively Seeking a Software Development / Web Development internship to apply problem-solving and programming
-skills.
-    </p>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="skills">
-    <h2 class="section-title">Skills</h2>
-
-    <div class="skills-grid">
-        <div class="skill-card">C</div>
-        <div class="skill-card">C++</div>
-        <div class="skill-card">Java</div>
-        <div class="skill-card">Python</div>
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">SQL</div>
-        <div class="skill-card">MongoDB</div>
-        <div class="skill-card">Data Structures & Algorithms (DSA)</div>
-        <div class="skill-card">Object-Oriented Programming (OOPs)</div>
-    </div>
-</section>
-
-<!-- PROJECTS -->
+    <!-- PROJECT SECTION -->
+    <!-- PROJECT SECTION -->
 <section id="projects" class="projects">
     <h2 class="section-title">Projects</h2>
 
     <div class="project-grid">
 
+        <!-- Khadi Bhandar Digitalization -->
         <div class="project-card">
             <h3>Khadi Bhandar Digitalization</h3>
             <p>
-                Developed a full-stack web application for product, order, and user management.
-                Implemented role-based authentication (Admin, Employee, Customer).
-                Designed MongoDB schemas and integrated RESTful backend APIs with CRUD operations.
-                Ensured efficient data handling and smooth business workflows.
+                Full-stack web application for managing products, orders, and users.
+                Implemented role-based authentication for Admin, Employee, and Customer.
+                Built RESTful APIs and MongoDB database with complete CRUD operations.
             </p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, MongoDB</p>
         </div>
 
+        <!-- Netflix Movie Recommendation System -->
         <div class="project-card">
-            <h3>Library Management System</h3>
+            <h3>Netflix Movie Recommendation System</h3>
             <p>
-                Built a database-driven system to automate book issue, return, cataloging, and user registration.
-                Implemented transaction tracking and reporting modules to reduce manual workload.
+                Machine learning-based movie recommender built using Python, Scikit-Learn, 
+                TF-IDF Vectorizer, and Cosine Similarity. 
+                Processed movie metadata (genres, cast, overview) using NLP techniques 
+                and developed a full pipeline for similarity scoring and recommendation generation.
             </p>
-            <p><strong>Tech Stack:</strong> Python/Java, SQL, HTML, CSS</p>
         </div>
 
+        <!-- Portfolio Website -->
         <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>
-                Designed a responsive portfolio website with a clean dark theme, project showcase, and resume download feature.
-                Created optimized UI/UX and deployed using GitHub Pages.
-            </p>
-            <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-
-            <div class="project-buttons">
-                <a href="https://github.com/alkarani022005-del/Portfolio" target="_blank" class="btn-small">GitHub</a>
-                <a href="https://alkarani022005-del.github.io/Portfolio" target="_blank" class="btn-small">Live</a>
-            </div>
+            <h3>Portfolio Website</h3>
+            <p>A clean, responsive, and modern portfolio website built using HTML, CSS, and JavaScript.</p>
+            <a href="#" class="btn-small">See Live</a>
         </div>
 
     </div>
 </section>
 
-<!-- CERTIFICATIONS -->
-<section id="certifications" class="certifications">
-    <h2 class="section-title">Certifications & Achievements</h2>
-
-    <ul class="cert-list">
-        <li>Web Development Internship (Participation & Interview) – See Caller</li>
-        <li>Flipkart Runway: Season 5 – Online Assessment</li>
-        <li>Technology Fellowship – Algo University</li>
-    </ul>
-</section>
-
-<!-- EDUCATION -->
-<section id="education" class="education">
-    <h2 class="section-title">Education</h2>
-
-    <div class="edu-card">
-        <h3>B.Tech – Computer Science Engineering</h3>
-        <p>Banasthali Vidyapith (2023 – Present)</p>
-        <p><strong>CGPA:</strong> 7.11</p>
-    </div>
-
-    <div class="edu-card">
-        <h3>Senior Secondary (Class 12)</h3>
-        <p>Banasthali Vidyapith (2020 – 2022)</p>
-        <p><strong>Percentage:</strong> 91.1%</p>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="contact">
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
     <h2 class="section-title">Contact Me</h2>
 
-    <div class="contact-container">
-
-        <div class="contact-info">
-            <h3>Contact Information</h3>
-            <p><strong>Email:</strong> alkarani022005@gmail.com</p>
-            <p><strong>Phone:</strong> +91 91429 74479</p>
-            <p><strong>Portfolio:</strong> alkarani022005-del.github.io/Portfolio</p>
-        </div>
-
-        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-
-            <input type="hidden" name="access_key" value="3c3c16d8-756f-43e3-8d5a-6e7bddcc2d20">
-
-            <label>Your Name</label>
-            <input type="text" name="name" placeholder="Enter your name" required>
-
-            <label>Your Email</label>
-            <input type="email" name="email" value="alkarani022005@gmail.com" readonly>
-
-            <label>Your Phone</label>
-            <input type="text" name="phone" value="9142974479" readonly>
-
-            <label>Your Message</label>
-            <textarea name="message" placeholder="Enter your message" required></textarea>
-
-            <input type="hidden" name="redirect" value="https://web3forms.com/success">
-
-            <button class="btn" type="submit">Send Message</button>
-        </form>
-
-    </div>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" value="alkarani022005@gmail.com" readonly>
+        <input type="text" value="9142974479" readonly>
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn">Send Message</button>
+    </form>
 </section>
 
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 Alka Rani | Portfolio Website</p>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Alka Rani | B.Tech CSE | Portfolio</p>
+    </footer>
 
 </body>
 </html>
